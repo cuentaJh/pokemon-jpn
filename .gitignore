@@ -1,0 +1,8 @@
+# Ignora todos los directorios .idea del proyecto que se agregan al usar Pycharn
+.idea
+__pycache__
+
+# Ignora la base de datos sqlite3 que viene por defecto al crear un proyecto en Django
+*.sqlite3       # el * es para que ignore todos los archivos con esa extension
+
+
